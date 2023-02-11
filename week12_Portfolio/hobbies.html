@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/hobbies.css">
+
+</head>
+<body>
+    <div class="nav_bar">
+        <a href="#" class="icon" onclick="my_function()">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </a>
+
+        <nav>
+    
+            <ul id="toggle_menu">
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="academics.html">ACADEMIC</a></li>
+                <li><a href="hobbies.html">HOBBIES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>                   
+     </div>
+     
+   <div class="hobbies_section">
+         <div id="hobbies">
+                      <h1>My Hobbies</h1>
+            <div class="container">
+
+                <div class="grid1">
+                   <img src="painting.jpg" alt="photo" style="height:100%;">
+                </div>
+
+                <div class="grid2">
+                    <h1>Painting</h1>
+                    <p>Painting is one of those hobbies that gives you an opportunity to relax, enjoy and learn at the same time. We cannot imagine our life without colours and the essence of a painting lies in its colour schema itself</p>
+                </div>
+
+                <div class="grid3">
+                    <h1>Cooking</h1>
+                    <p>I know many people will disagree when I say cooking is a skill that is essential in reducing their stress levels but it works for me, but it also enables me to expand my cooking abilities and makes me a better cook, and a great cook is always trying to find new ways to make cooking fun and stimulating like me.</p>
+                </div>
+
+                <div class="grid4">
+                    <img src="cooking.jpg" alt="cooking" style="height:100%">
+                </div>
+
+            </div>
+        </div>
+   </div>
+</body>
+<script>
+  document.getElementById('toggle_menu').style.display='none';
+  function my_function(){
+        var menu = document.getElementById('toggle_menu');
+        if(menu.style.display ==='none'){
+            menu.style.display='block';
+        }else{
+            menu.style.display='none';
+        }
+    }
+</script>
+</html>

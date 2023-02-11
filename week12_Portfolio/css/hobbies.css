@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+
+#hobbies{
+    padding:50px;
+    background-color: rgb(238, 209, 209);
+    
+
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.grid1{
+    height: 60vh;
+    background-color:white;
+}
+
+
+.grid2{
+    text-align: center;
+    padding:5%;
+    background-color: rgb(213, 172, 176);
+
+}
+
+.grid3{
+    text-align: center;
+    background-color: rgb(213, 172, 176) ;
+    padding:5%;
+}
+
+.grid4{
+    height: 60vh;
+    background-color: white;
+}
+
+

@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(238, 209, 209)
+}
+
+#contact{
+    width: 550px;
+    background-color: #fff;
+    top: 15%;
+    margin-left: 30%;
+     position: absolute;
+     background-color: rgb(242, 230, 232);
+}
+
+.container{
+    margin: 30px;
+    padding: 20px;
+}
+form{
+    margin: 3px;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+  margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.input-field{
+    width: 350px;
+    height: 45px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 12px;
+    outline: none;
+}
+
+.textarea-field{
+    height: 50px;
+    padding-top: 20px;
+}
+
+.btn{
+    border-radius: 20px;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #97c59e;
+    border: none;
+}
+
+.btn:hover{
+  background-color: #5e9065;
+   transition: 0.4s
+}

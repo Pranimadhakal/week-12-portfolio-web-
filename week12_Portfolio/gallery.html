@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/gallery.css">
+
+</head>
+<body>
+      <div class="nav_bar">
+        <a href="#" class="icon" onclick="my_function()">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </a>
+
+        <nav>
+            <ul id="toggle_menu">
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="academics.html">ACADEMIC</a></li>
+                <li><a href="hobbies.html">HOBBIES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>                   
+     </div>  
+
+         <h1>Gallery</h1>
+             <div class="main">
+                <img src="/gallery/img1.jpg">
+                <img src="/gallery/img2.jpg">
+                <img src="/gallery/img3.jpg">
+                <img src="/gallery/img4.jpg">  
+            </div>                 
+</body>
+
+<script>
+  document.getElementById('toggle_menu').style.display='none';
+    function my_function(){
+        var menu = document.getElementById('toggle_menu');
+        if(menu.style.display ==='none'){
+            menu.style.display='block';
+        }else{
+            menu.style.display='none';
+        }
+    }
+</script>
+</html>

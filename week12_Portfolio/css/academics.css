@@ -1,0 +1,36 @@
+
+
+body{
+    background-color: rgb(238, 209, 209);
+
+}
+table,th,td{
+    border: 1px solid rgb(27, 26, 26);
+    border-collapse: collapse;
+    height: 30px;
+    padding-right: 30px;
+}
+h2{
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+}
+
+p{
+    text-align: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(104, 147, 133);
+}
+
+.container a{
+    text-align: center;
+}
+
+.my_table tr  td{
+     text-align: center;
+}
+.my_table tr  td:first-child{
+    padding-left:2%;
+    text-align:left;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/academics.css">
+
+</head>
+<body>
+    <div class="nav_bar">
+        <a href="#" class="icon" onclick="my_function()">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </a>
+
+        <nav>
+            <ul id="toggle_menu">
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="academics.html">ACADEMIC</a></li>
+                <li><a href="hobbies.html">HOBBIES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>                   
+     </div>
+     
+   <div class="academics_section">
+    <div id="academics">
+
+      <h2> ACADEMIC BACKGROUND </h2>
+    <table style=" width:90%;margin:auto;" class="my_table">
+          <tr>
+            <th rowspan="2">INSTITUTE</th>
+            <th colspan="2">Dates</th>
+            <th rowspan="2">EXAMINATION BOARD</th>
+            <th rowspan="2">RESULTS</th>
+            <th rowspan="2">Links</th>
+          </tr>
+          <tr>
+            <th>From</th>
+            <th>To</th>
+          </tr>
+
+           <tr>
+              <td>The Skylark English School</td>
+              <td>Nursery</td>
+              <td>2019</td>
+              <td>N.E.B</td>
+              <td>3.05</td>
+              <td><a href="https://m.facebook.com/profile.php?id=432199330151850"target="_blank">Click me</a></td>
+            </tr>
+            
+            <tr>
+              <td>Southwestern State College(S.W.S.C)</td>
+              <td>2019</td>
+              <td>2021</td>
+              <td>N.E.B</td>
+              <td>3.26</td>
+              <td><a href="https://southwestern.edu.np/"target="_blank">Click me</a></td>
+            </tr>
+            
+            <tr>
+              <td>Herald College kathmandu(H.C.K)</td>
+              <td>2022</td>
+              <td>2025</td>
+              <td>H.C.K</td>
+              <td>Ongoing</td>
+              <td><a href="https://heraldcollege.edu.np/"target="blank">Click me</a></td>
+          </tr>
+     </table>
+  </div>
+   </div>
+</body>
+<script>
+  document.getElementById('toggle_menu').style.display='none';
+    function my_function(){
+        var menu = document.getElementById('toggle_menu');
+        if(menu.style.display ==='none'){
+            menu.style.display='block';
+        }else{
+            menu.style.display='none';
+        }
+    }
+</script>
+</html>

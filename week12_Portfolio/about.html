@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/about.css">
+
+</head>
+<body>
+      <div class="nav_bar">
+        <a href="#" class="icon" onclick="my_function()">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </a>
+
+        <nav>
+            <ul id="toggle_menu">
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="academics.html">ACADEMIC</a></li>
+                <li><a href="hobbies.html">HOBBIES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>                   
+     </div> 
+
+        <div id="about">
+          <!-- <div class="image">  -->
+          <img src="image3.jpg" alt="photo"> 
+          <!-- </div> -->
+        </div>
+
+          <div id="paragraph">
+            <h1>About me</h1>
+                  <p>I would like to introduce myself as Pranima Dhakal. I was born and raised in kathmandu, but to be specific<br> i live in dhapasi. I live in a nuclear family having 6 members. I am computer science student <br>currently studying at Herald College situated at Kathmandu, Naxal. In future <br>I wish to work as a UX designer and contribute to IT industry.  </p>
+         </div>
+       
+    
+</body>
+<script>
+  document.getElementById('toggle_menu').style.display='none';
+    function my_function(){
+        var menu = document.getElementById('toggle_menu');
+        if(menu.style.display ==='none'){
+            menu.style.display='block';
+        }else{
+            menu.style.display='none';
+        }
+    }
+</script>
+</html>

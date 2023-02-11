@@ -1,0 +1,42 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.main{
+    position: static;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+body{
+    background-color: rgb(238, 209, 209);
+}
+img{
+    float: left;
+    width: 550px;
+    height: 500px;
+    margin: 10px;
+
+}
+
+#about{
+    margin: 20px;
+    padding: 30px; 
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+  

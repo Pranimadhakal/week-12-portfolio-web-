@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/contact.css">
+
+</head>
+<body>
+    <div class="nav_bar">
+        <a href="#" class="icon" onclick="my_function()">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </a>
+
+        <nav>
+    
+            <ul id="toggle_menu">
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="academics.html">ACADEMIC</a></li>
+                <li><a href="hobbies.html">HOBBIES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>                   
+     </div>
+
+     <div id="contact">
+           <h2>CONTACT</h2>
+      <div class="container">
+      <form>
+          <label for="fname">FIRST NAME:</label>
+          <input type="text" class="input-field" placeholder="Enter your first name"><br>
+
+          <label for="lname">LAST NAME:</label>
+          <input type="text" class="input-field"
+          placeholder="Enter your last name"><br>
+
+           <label for="email">EMAIL:</label>
+           <input type="text" class="input-field"
+           placeholder="Enter your email address"><br>
+
+           <label for="comments">COMMENTS:</label>
+          <textarea type="text" class="textarea-field"
+           placeholder="Write something" style="height:50px" > 
+          </textarea><br>
+
+            <button type="button" class="btn">SUBMIT</button>
+      </form>
+  </div>
+</body>
+<script>
+  document.getElementById('toggle_menu').style.display='none';
+    function my_function(){
+        var menu = document.getElementById('toggle_menu');
+        if(menu.style.display ==='none'){
+            menu.style.display='block';
+        }else{
+            menu.style.display='none';
+        }
+    }
+</script>
+</html>
